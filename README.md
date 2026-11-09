@@ -1,6 +1,6 @@
 # Governança de Modelos
 
-#### O presente projeto de avaliação foca na aplicação prática de governança de modelos de inteligência artificial e operações de dados no setor elétrico, utilizando o estudo de caso da empresa VoltaSul Energia. O objetivo central é diagnosticar falhas críticas na gestão do modelo preditivo VS-Prioriza — utilizado para automatizar cortes de energia por inadimplência — e no pipeline de dados associado, estruturando propostas de correção embasadas nas melhores práticas de IA e Business Analytics.   
+> O presente projeto de avaliação foca na aplicação prática de governança de modelos de inteligência artificial e operações de dados no setor elétrico, utilizando o estudo de caso da empresa VoltaSul Energia. O objetivo central é diagnosticar falhas críticas na gestão do modelo preditivo VS-Prioriza — utilizado para automatizar cortes de energia por inadimplência — e no pipeline de dados associado, estruturando propostas de correção embasadas nas melhores práticas de IA e Business Analytics.   
 
 O conteúdo desenvolvido está estruturado nos seguintes eixos analíticos:
 
@@ -12,4 +12,4 @@ O conteúdo desenvolvido está estruturado nos seguintes eixos analíticos:
 
 - **Governança da Operação de Dados (DataOps):** O mapeamento do fluxo de dados revelou violações na cultura DevData, responsáveis por incidentes severos, como o corte de energia em locais com equipamentos de suporte à vida. A proposta estabelece portões de qualidade automáticos (Quality Gates) e define Objetivos de Nível de Serviço (SLOs) focados na latência e na integridade negocial, garantindo que restrições humanitárias sejam obrigatoriamente aplicadas antes do envio das listas de corte às equipes de campo.   
 
-A análise evidencia tecnicamente que a automação de serviços essenciais via Inteligência Artificial requer governança contínua. A sustentabilidade de algoritmos de alto risco depende do monitoramento proativo de vieses, da adoção de restritores humanitários e da obrigatoriedade de supervisão humana (Human-in-the-loop), garantindo decisões operacionais que sejam eficientes, éticas e rigorosamente auditáveis.
+> A análise evidencia tecnicamente que a automação de serviços essenciais via Inteligência Artificial requer governança contínua. A sustentabilidade de algoritmos de alto risco depende do monitoramento proativo de vieses, da adoção de restritores humanitários e da obrigatoriedade de supervisão humana (Human-in-the-loop), garantindo decisões operacionais que sejam eficientes, éticas e rigorosamente auditáveis.
