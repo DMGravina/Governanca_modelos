@@ -1,4 +1,6 @@
-O presente projeto de avaliação foca na aplicação prática de governança de modelos de inteligência artificial e operações de dados no setor elétrico, utilizando o estudo de caso da empresa VoltaSul Energia. O objetivo central é diagnosticar falhas críticas na gestão do modelo preditivo VS-Prioriza — utilizado para automatizar cortes de energia por inadimplência — e no pipeline de dados associado, estruturando propostas de correção embasadas nas melhores práticas de IA e Business Analytics.   
+# Governança de Modelos
+
+#### O presente projeto de avaliação foca na aplicação prática de governança de modelos de inteligência artificial e operações de dados no setor elétrico, utilizando o estudo de caso da empresa VoltaSul Energia. O objetivo central é diagnosticar falhas críticas na gestão do modelo preditivo VS-Prioriza — utilizado para automatizar cortes de energia por inadimplência — e no pipeline de dados associado, estruturando propostas de correção embasadas nas melhores práticas de IA e Business Analytics.   
 
 O conteúdo desenvolvido está estruturado nos seguintes eixos analíticos:
 
