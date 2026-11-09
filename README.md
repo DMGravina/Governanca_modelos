@@ -1,1 +1,13 @@
-# Governanca_modelos
+O presente projeto de avaliação foca na aplicação prática de governança de modelos de inteligência artificial e operações de dados no setor elétrico, utilizando o estudo de caso da empresa VoltaSul Energia. O objetivo central é diagnosticar falhas críticas na gestão do modelo preditivo VS-Prioriza — utilizado para automatizar cortes de energia por inadimplência — e no pipeline de dados associado, estruturando propostas de correção embasadas nas melhores práticas de IA e Business Analytics.   
+
+O conteúdo desenvolvido está estruturado nos seguintes eixos analíticos:
+
+- **Governança do Modelo Algorítmico:** A auditoria do Model Card constatou lacunas graves, como a ausência de avaliação de métricas de explicabilidade e de impacto por grupos demográficos. Identificou-se que o uso das variáveis de CEP e Tarifa Social gerou vieses algorítmicos, resultando em uma taxa desproporcional de cortes indevidos (14,2%) sobre populações socioeconomicamente vulneráveis. O parecer técnico recomendou a correção do modelo com base em critérios de equidade e percepção contextual de risco.   
+
+- **Monitoramento de Estabilidade (Drift):** A análise do Índice de Estabilidade Populacional (PSI) evidenciou uma degradação estatística do modelo, caracterizada pela ocorrência simultânea de desvios de dados (data drift) e de conceito (concept drift) em virtude de mudanças nas políticas da Tarifa Social. Diante disso, a recomendação técnica exige o retreino imediato do algoritmo para reajustar os parâmetros à nova realidade populacional, descartando a hipótese de um simples rollback.   
+
+- **Governança de Métricas e Indicadores:** Diagnosticou-se uma divergência severa no cálculo da Taxa de Efetividade de Corte (TEC) entre as áreas Comercial e Regulatória, causada pelo uso de bases e parâmetros semânticos incompatíveis. A solução proposta implementa um Metric Contract, estabelecendo um padrão único e auditável para o indicador corporativo e definindo regras estritas de acesso e alteração.   
+
+- **Governança da Operação de Dados (DataOps):** O mapeamento do fluxo de dados revelou violações na cultura DevData, responsáveis por incidentes severos, como o corte de energia em locais com equipamentos de suporte à vida. A proposta estabelece portões de qualidade automáticos (Quality Gates) e define Objetivos de Nível de Serviço (SLOs) focados na latência e na integridade negocial, garantindo que restrições humanitárias sejam obrigatoriamente aplicadas antes do envio das listas de corte às equipes de campo.   
+
+A análise evidencia tecnicamente que a automação de serviços essenciais via Inteligência Artificial requer governança contínua. A sustentabilidade de algoritmos de alto risco depende do monitoramento proativo de vieses, da adoção de restritores humanitários e da obrigatoriedade de supervisão humana (Human-in-the-loop), garantindo decisões operacionais que sejam eficientes, éticas e rigorosamente auditáveis.
